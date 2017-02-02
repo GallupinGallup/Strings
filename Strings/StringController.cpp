@@ -10,10 +10,12 @@
 #include <String>
 #include "StringController.hpp"
 
+using namespace std;
+
 StringController:: StringController()
 {
     derpy = "derp derp derp";
-    otherWordz = "oh more words?"
+    otherWordz = "oh more words?";
 }
 
 void StringController:: start()

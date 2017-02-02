@@ -10,11 +10,14 @@
 #define StringController_hpp
 
 #include <string>
+
+using namespace std;
+
 class StringController
 {
 private:
-    string derpy;
-    string otherWordz;
+    std::string derpy();
+    std::string otherWordz();
     void numberMethods();
 public:
     void start();
