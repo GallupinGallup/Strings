@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5C4E78B21E43C7DB00403A92 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E78B11E43C7DB00403A92 /* main.cpp */; };
+		5C4E78BA1E43C7FB00403A92 /* StringController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E78B81E43C7FB00403A92 /* StringController.cpp */; };
+		5C4E78BC1E43C87100403A92 /* StringRunner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E78BB1E43C87100403A92 /* StringRunner.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		5C4E78AE1E43C7DB00403A92 /* Strings */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Strings; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C4E78B11E43C7DB00403A92 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5C4E78B81E43C7FB00403A92 /* StringController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StringController.cpp; sourceTree = "<group>"; };
+		5C4E78B91E43C7FB00403A92 /* StringController.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = StringController.hpp; sourceTree = "<group>"; };
+		5C4E78BB1E43C87100403A92 /* StringRunner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StringRunner.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		5C4E78B01E43C7DB00403A92 /* Strings */ = {
 			isa = PBXGroup;
 			children = (
-				5C4E78B11E43C7DB00403A92 /* main.cpp */,
+				5C4E78B81E43C7FB00403A92 /* StringController.cpp */,
+				5C4E78B91E43C7FB00403A92 /* StringController.hpp */,
+				5C4E78BB1E43C87100403A92 /* StringRunner.cpp */,
 			);
 			path = Strings;
 			sourceTree = "<group>";
@@ -119,7 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C4E78B21E43C7DB00403A92 /* main.cpp in Sources */,
+				5C4E78BC1E43C87100403A92 /* StringRunner.cpp in Sources */,
+				5C4E78BA1E43C7FB00403A92 /* StringController.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +252,7 @@
 				5C4E78B71E43C7DB00403A92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
